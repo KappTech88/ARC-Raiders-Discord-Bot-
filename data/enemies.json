@@ -1,0 +1,184 @@
+{
+  "enemies": [
+    {
+      "id": "wasp",
+      "name": "Wasp",
+      "type": "Flying Scout",
+      "threat": "Low",
+      "health": "Low",
+      "armor": "Weak",
+      "abilities": [
+        "Aerial reconnaissance",
+        "Lock-on targeting",
+        "Alert system"
+      ],
+      "description": "A flying scout drone that patrols overhead, scanning for Raiders. Shoots once it locks on target.",
+      "weaknesses": [
+        "Low health",
+        "Easy to take down",
+        "Vulnerable when stationary"
+      ],
+      "tactics": [
+        "Take out quickly before it alerts others",
+        "Use any weapon - even low-tier guns work",
+        "Watch for their scanning patterns",
+        "Prioritize if in groups to avoid swarms"
+      ],
+      "loot": "Common materials, occasional weapon mods"
+    },
+    {
+      "id": "tick",
+      "name": "Tick",
+      "type": "Turret Spider",
+      "threat": "Low-Medium",
+      "health": "Low",
+      "armor": "Light",
+      "abilities": [
+        "Wall/ceiling crawling",
+        "Auto-targeting",
+        "Poison damage over time"
+      ],
+      "description": "A turret-like spider-bot that crawls on walls and ceilings, automatically firing at intruders. Spews poison on death.",
+      "weaknesses": [
+        "Low health pool",
+        "Stationary when firing",
+        "Predictable placement"
+      ],
+      "tactics": [
+        "Check ceilings and walls in buildings",
+        "Use grenades to clear rooms",
+        "Avoid poison clouds after destruction",
+        "Listen for mechanical sounds"
+      ],
+      "loot": "Tech components, ammunition"
+    },
+    {
+      "id": "bastion",
+      "name": "Bastion",
+      "type": "Heavy Walker",
+      "threat": "High",
+      "health": "Very High",
+      "armor": "Heavy",
+      "abilities": [
+        "Heavy armor plating",
+        "High-caliber weapons",
+        "Area suppression"
+      ],
+      "description": "A large, slow-moving heavy walker equipped with devastating weapons. One of the toughest standard ARC machines.",
+      "weaknesses": [
+        "Slow movement speed",
+        "Weak points on back",
+        "Long reload times"
+      ],
+      "tactics": [
+        "Keep distance and use cover",
+        "Aim for weak points (glowing areas)",
+        "Use high-penetration weapons (Ferro, Anvil, Hullcracker)",
+        "Flank and attack from behind",
+        "Use grenades to stagger",
+        "Team focus fire recommended"
+      ],
+      "loot": "Rare materials, weapon blueprints, high-tier ammo"
+    },
+    {
+      "id": "queen",
+      "name": "Queen",
+      "type": "Boss",
+      "threat": "Extreme",
+      "health": "Massive",
+      "armor": "Very Heavy",
+      "abilities": [
+        "Multiple weapon systems",
+        "Spawns support units",
+        "Area denial attacks",
+        "Heavy armor regeneration"
+      ],
+      "description": "A hulking boss robot that guards harvesters stocked with high-tier weapon blueprints. Requires coordinated team effort.",
+      "weaknesses": [
+        "Exposed core during certain attacks",
+        "Vulnerable after spawn phases",
+        "Slow turning speed"
+      ],
+      "tactics": [
+        "Bring a full squad with coordinated loadouts",
+        "Focus on weak points when exposed",
+        "Eliminate spawned units quickly",
+        "Use heavy weapons (Hullcracker is ideal)",
+        "Maintain spread positions to avoid area attacks",
+        "Bring plenty of healing items",
+        "Save grenades for crowd control"
+      ],
+      "loot": "Legendary blueprints, rare materials, unique weapon mods"
+    },
+    {
+      "id": "hunter",
+      "name": "Hunter",
+      "type": "Fast Assault",
+      "threat": "Medium-High",
+      "health": "Medium",
+      "armor": "Medium",
+      "abilities": [
+        "High mobility",
+        "Rapid melee attacks",
+        "Dodge capability"
+      ],
+      "description": "Fast-moving ARC designed for rapid assault and harassment tactics.",
+      "weaknesses": [
+        "Less armor than heavy units",
+        "Predictable charge patterns",
+        "Vulnerable during attacks"
+      ],
+      "tactics": [
+        "Use automatic weapons for tracking",
+        "Maintain distance when possible",
+        "Prepare for dodge movements",
+        "Trap placement can stop charges",
+        "Time shots between dodges"
+      ],
+      "loot": "Movement mods, energy cells"
+    },
+    {
+      "id": "sentinel",
+      "name": "Sentinel",
+      "type": "Shield Unit",
+      "threat": "Medium",
+      "health": "High",
+      "armor": "Heavy (frontal)",
+      "abilities": [
+        "Deployable shield",
+        "Cover for other units",
+        "Frontal immunity"
+      ],
+      "description": "Defensive ARC that deploys shields to protect itself and other machines.",
+      "weaknesses": [
+        "Weak from sides and rear",
+        "Shield has cooldown periods",
+        "Slow when shield is active"
+      ],
+      "tactics": [
+        "Flank to bypass shield",
+        "Use explosives to stagger",
+        "Wait for shield cooldown",
+        "Focus other enemies first if possible",
+        "Energy weapons can drain shields faster"
+      ],
+      "loot": "Shield components, defensive mods"
+    }
+  ],
+  "enemyTypes": {
+    "scouts": ["wasp"],
+    "defensive": ["tick", "sentinel"],
+    "assault": ["hunter"],
+    "heavy": ["bastion"],
+    "bosses": ["queen"]
+  },
+  "generalTips": [
+    "Always carry weapons with good ARC penetration for PvE",
+    "Prioritize scouts to avoid alerting entire areas",
+    "Heavy units require teamwork and high-penetration weapons",
+    "Listen for audio cues to detect nearby ARCs",
+    "Use environment for cover - ARCs have limited pathfinding",
+    "Bring healing items and shield rechargers for prolonged fights",
+    "Energy weapons excel against heavily armored targets"
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "gadgets": [
+    {
+      "id": "bandage",
+      "name": "Bandage",
+      "category": "Healing",
+      "rarity": "Common",
+      "effect": "Restores 25 HP over 5 seconds",
+      "stackSize": 10,
+      "description": "Basic healing item. Essential for every loadout. Carry at least 5 in every raid.",
+      "tips": [
+        "Stack at least 5-10 per raid",
+        "Use behind cover",
+        "Cheapest healing option",
+        "Quick healing for minor damage"
+      ],
+      "cost": 50
+    },
+    {
+      "id": "vita-spray",
+      "name": "Vita Spray",
+      "category": "Healing",
+      "rarity": "Uncommon",
+      "effect": "Instantly restores 50 HP",
+      "stackSize": 5,
+      "description": "Fast-acting healing spray for emergency situations. More expensive but instant.",
+      "tips": [
+        "Use in active combat",
+        "More expensive than bandages",
+        "Instant healing is crucial for PvP",
+        "Bring 2-3 for extended raids"
+      ],
+      "cost": 250
+    },
+    {
+      "id": "vita-shots",
+      "name": "Vita Shots",
+      "category": "Healing",
+      "rarity": "Rare",
+      "effect": "Instantly restores 75 HP + 15 HP over 10 seconds",
+      "stackSize": 3,
+      "description": "Premium healing option with instant and sustained effects.",
+      "tips": [
+        "Best for high-stakes raids",
+        "Expensive but very effective",
+        "Combine instant + over-time healing",
+        "Save for critical moments"
+      ],
+      "cost": 500
+    },
+    {
+      "id": "shield-recharger",
+      "name": "Shield Recharger",
+      "category": "Shield",
+      "rarity": "Common",
+      "effect": "Restores 100% shield over 8 seconds",
+      "stackSize": 5,
+      "description": "Essential for sustained combat. Recharges your shield completely.",
+      "tips": [
+        "Always carry 2+ per raid",
+        "Use behind cover",
+        "Essential for prolonged fights",
+        "Works with all shield types"
+      ],
+      "cost": 150
+    },
+    {
+      "id": "frag-grenade",
+      "name": "Frag Grenade",
+      "category": "Explosive",
+      "rarity": "Common",
+      "effect": "75 damage in 5m radius",
+      "stackSize": 5,
+      "description": "Standard explosive grenade. Good for clearing groups and area denial.",
+      "tips": [
+        "Staggers ARC machines",
+        "Useful for clearing rooms",
+        "Can flush out campers",
+        "Carry 2-3 for versatility"
+      ],
+      "cost": 200
+    },
+    {
+      "id": "emp-grenade",
+      "name": "EMP Grenade",
+      "category": "Tactical",
+      "rarity": "Uncommon",
+      "effect": "Disables ARCs for 5 seconds, drains shields",
+      "stackSize": 3,
+      "description": "Tactical grenade that disables ARC machines and drains enemy shields.",
+      "tips": [
+        "Essential for heavy ARC fights",
+        "Great against Bastions and Queens",
+        "Drains Raider shields in PvP",
+        "Coordinate with team for maximum effect"
+      ],
+      "cost": 350
+    },
+    {
+      "id": "flashbang",
+      "name": "Flashbang",
+      "category": "Tactical",
+      "rarity": "Uncommon",
+      "effect": "Blinds and disorients for 4 seconds",
+      "stackSize": 3,
+      "description": "Stun grenade that blinds enemies, excellent for PvP.",
+      "tips": [
+        "PvP focused gadget",
+        "Look away when throwing",
+        "Great for breaching",
+        "Coordinate with teammates"
+      ],
+      "cost": 300
+    },
+    {
+      "id": "smoke-grenade",
+      "name": "Smoke Grenade",
+      "category": "Tactical",
+      "rarity": "Common",
+      "effect": "Creates smoke screen for 15 seconds",
+      "stackSize": 3,
+      "description": "Provides visual cover for repositioning or reviving teammates.",
+      "tips": [
+        "Perfect for escaping",
+        "Cover for revives",
+        "Blocks sniper sightlines",
+        "Use for repositioning"
+      ],
+      "cost": 200
+    },
+    {
+      "id": "lure-grenade",
+      "name": "Lure Grenade",
+      "category": "Tactical",
+      "rarity": "Common",
+      "effect": "Attracts ARCs to location for 10 seconds",
+      "stackSize": 3,
+      "description": "Distracts ARC machines, drawing them to the grenade location.",
+      "tips": [
+        "Essential for stealth approaches",
+        "Clear paths without fighting",
+        "Separate groups of ARCs",
+        "Great for beginners"
+      ],
+      "cost": 150
+    },
+    {
+      "id": "zipline",
+      "name": "Zipline",
+      "category": "Utility",
+      "rarity": "Uncommon",
+      "effect": "Creates traversable zipline between two points",
+      "stackSize": 2,
+      "description": "Deploy ziplines for quick vertical or horizontal movement.",
+      "tips": [
+        "Access hard-to-reach areas",
+        "Quick escape routes",
+        "Flank opportunities",
+        "Plan placement carefully"
+      ],
+      "cost": 400
+    },
+    {
+      "id": "door-blocker",
+      "name": "Door Blocker",
+      "category": "Utility",
+      "rarity": "Common",
+      "effect": "Blocks door for 60 seconds",
+      "stackSize": 3,
+      "description": "Temporarily seals doors to control enemy movement.",
+      "tips": [
+        "Control engagement zones",
+        "Block flanking routes",
+        "Secure looting time",
+        "Force enemy movement patterns"
+      ],
+      "cost": 200
+    },
+    {
+      "id": "mine",
+      "name": "Proximity Mine",
+      "category": "Trap",
+      "rarity": "Uncommon",
+      "effect": "100 damage when triggered",
+      "stackSize": 3,
+      "description": "Place proximity mines to trap areas or defend positions.",
+      "tips": [
+        "Place near doorways",
+        "Defend extraction points",
+        "Combo with door blockers",
+        "Watch for friendly fire"
+      ],
+      "cost": 350
+    },
+    {
+      "id": "flare",
+      "name": "Flare",
+      "category": "Utility",
+      "rarity": "Common",
+      "effect": "Illuminates area for 30 seconds",
+      "stackSize": 5,
+      "description": "Light source for dark areas and signaling teammates.",
+      "tips": [
+        "Useful in dark interiors",
+        "Signal teammate locations",
+        "Spot enemies in shadows",
+        "Mark locations"
+      ],
+      "cost": 100
+    },
+    {
+      "id": "tech-scanner",
+      "name": "Tech Scanner",
+      "category": "Utility",
+      "rarity": "Rare",
+      "effect": "Reveals nearby loot and ARCs through walls",
+      "stackSize": 1,
+      "description": "Advanced scanning device that reveals enemies and loot through obstacles.",
+      "tips": [
+        "Find high-value loot",
+        "Scout before engagement",
+        "Locate hidden ARCs",
+        "Expensive but invaluable"
+      ],
+      "cost": 800
+    }
+  ],
+  "gadgetCategories": {
+    "healing": ["bandage", "vita-spray", "vita-shots"],
+    "shield": ["shield-recharger"],
+    "explosive": ["frag-grenade"],
+    "tactical": ["emp-grenade", "flashbang", "smoke-grenade", "lure-grenade"],
+    "utility": ["zipline", "door-blocker", "flare", "tech-scanner"],
+    "trap": ["mine"]
+  },
+  "loadoutRecommendations": {
+    "beginner": ["bandage", "shield-recharger", "lure-grenade", "flare"],
+    "pvp": ["vita-spray", "shield-recharger", "flashbang", "smoke-grenade"],
+    "pve": ["bandage", "shield-recharger", "emp-grenade", "lure-grenade"],
+    "advanced": ["vita-shots", "shield-recharger", "frag-grenade", "tech-scanner"]
+  }
+}

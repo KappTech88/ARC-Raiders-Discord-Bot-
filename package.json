@@ -1,0 +1,25 @@
+{
+  "name": "arc-raiders-discord-bot",
+  "version": "1.0.0",
+  "description": "Comprehensive ARC Raiders Discord bot for game guides, item lookup, and character builds",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "arc-raiders",
+    "gaming"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

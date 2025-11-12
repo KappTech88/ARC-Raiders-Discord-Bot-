@@ -1,0 +1,113 @@
+{
+  "guides": {
+    "getting-started": {
+      "title": "Getting Started with ARC Raiders",
+      "sections": [
+        {
+          "heading": "Basic Gameplay Loop",
+          "content": "1. **Prepare in Base**: Upgrade skills, craft weapons, buy items\n2. **Deploy Topside**: 30-minute raid timer starts\n3. **Loot & Combat**: Gather resources, fight ARCs, engage other Raiders\n4. **Extract or Die**: Return to base with your loot, or lose everything except safe pocket items"
+        },
+        {
+          "heading": "Priority Skills to Unlock",
+          "content": "• **Marathon Runner**: Increased stamina for longer sprints\n• **Effortless Roll**: Reduced stamina cost for dodging\n• **Extra Quick-Use Slots**: More gadget accessibility\n• **Basic Carry Capacity**: Carry more loot\n• **Gunsmith I**: Better weapon crafting options"
+        },
+        {
+          "heading": "Best Loot Locations",
+          "content": "• **Rust Belt**: Medium-tier loot, moderate ARC presence\n• **Industrial Zones**: High-tier blueprints, heavy ARC patrols\n• **Harvesters**: Best loot but guarded by boss ARCs\n• **Abandoned Outposts**: Balanced risk/reward\n• **Supply Drops**: Random spawns, contested by other Raiders"
+        },
+        {
+          "heading": "Beginner Tips",
+          "content": "• Start with Budget Starter build (Ferro + Stitcher)\n• Always carry 5+ bandages and 2 shield rechargers\n• Use lure grenades to avoid unnecessary ARC fights\n• Learn one extraction point per map\n• Store valuables in safe pocket before risky fights\n• Listen for audio cues (ARCs, Raiders, extraction warnings)\n• Don't engage unless necessary - survival > kills"
+        }
+      ]
+    },
+    "combat-mechanics": {
+      "title": "Combat Mechanics Guide",
+      "sections": [
+        {
+          "heading": "Movement",
+          "content": "• **Sprint**: Hold sprint until stamina depletes\n• **Parkour**: Jump to vault/climb ledges\n• **Slide**: Crouch while sprinting for silent approach\n• **Dodge Roll**: Quick evasion move (costs stamina)\n• **Positioning**: Always have cover nearby"
+        },
+        {
+          "heading": "ARC Penetration",
+          "content": "**Penetration Levels:**\n• Weak: SMGs, some pistols\n• Medium: ARs, shotguns at range\n• Strong: Hand cannons, battle rifles\n• Very Strong: Heavy weapons, energy rifles\n\n**Tip**: Match weapon to target - use high penetration for Bastions/Queens"
+        },
+        {
+          "heading": "PvP vs PvE",
+          "content": "**PvP Focus:**\n• High burst damage weapons (Anvil, Osprey)\n• Quick healing (Vita Spray)\n• Tactical grenades (Flashbang, Smoke)\n• Light armor for mobility\n\n**PvE Focus:**\n• High penetration weapons (Hullcracker, Ferro)\n• Sustained combat items (Bandages)\n• EMP grenades for ARCs\n• Heavy armor for survivability"
+        },
+        {
+          "heading": "Shield & Health",
+          "content": "• Shields regenerate automatically after 5 seconds of no damage\n• Health does NOT regenerate naturally\n• Shield rechargers restore shields during combat\n• Healing items restore health\n• Shields absorb damage before health\n• Different shield types have different capacities"
+        }
+      ]
+    },
+    "progression": {
+      "title": "Progression & Economy Guide",
+      "sections": [
+        {
+          "heading": "Making Money",
+          "content": "**Early Game:**\n• Farm common ARCs (Wasps, Ticks)\n• Loot containers in safe areas\n• Sell unwanted items at base\n• Complete easy contracts\n\n**Mid Game:**\n• Hunt Bastions for blueprints\n• Contested loot zones\n• Trade rare materials\n• Scavenge from Raider kills\n\n**Late Game:**\n• Boss farming (Queens)\n• High-risk industrial zones\n• Sell rare blueprints\n• Extraction camping (risky PvP)"
+        },
+        {
+          "heading": "Upgrade Priority",
+          "content": "1. **Gunsmith Bench**: Unlock better weapons\n2. **Mobility Skills**: Marathon Runner, Effortless Roll\n3. **Carry Capacity**: Bring more loot back\n4. **Quick-Use Slots**: More gadget options\n5. **Armor Crafting**: Better survivability\n6. **Weapon Mods**: Enhance your favorite guns"
+        },
+        {
+          "heading": "Safe Pocket Strategy",
+          "content": "• Always put highest value items in safe pocket\n• Rare blueprints should go immediately to safe pocket\n• Don't waste space on common items\n• Safe pocket size increases with upgrades\n• Contents are kept even if you die"
+        },
+        {
+          "heading": "Risk Management",
+          "content": "• Don't bring expensive loadouts when learning\n• Extract when safe pocket is full of valuables\n• Avoid fights near extraction time\n• Know when to abandon loot and extract\n• Insurance exists for some high-tier items"
+        }
+      ]
+    },
+    "maps": {
+      "title": "Map Guide",
+      "sections": [
+        {
+          "heading": "Rust Belt",
+          "content": "**Characteristics:**\n• Medium-sized industrial map\n• Moderate ARC density\n• Multiple extraction points\n• Good for beginners\n\n**Key Locations:**\n• Central Factory: High loot, heavy ARC presence\n• Outskirts: Safer looting, lower-tier items\n• Scrap Yards: Vehicle parts, medium ARCs\n\n**Tips:**\n• Learn extraction locations first\n• Avoid center early in raid\n• Good balance of PvE and PvP"
+        },
+        {
+          "heading": "Stella Montis (New November 2025)",
+          "content": "**Characteristics:**\n• 5th map in rotation\n• Expansion of Rust Belt\n• New ARC machine types\n• Fresh loot tables\n\n**Status:** Recently released - community still mapping\n\n**Tips:**\n• Expect experienced Raiders\n• New mechanics to learn\n• High-tier loot opportunities"
+        }
+      ]
+    },
+    "advanced-tactics": {
+      "title": "Advanced Tactics",
+      "sections": [
+        {
+          "heading": "Solo vs Squad Play",
+          "content": "**Solo Advantages:**\n• Faster movement\n• Easier stealth\n• All loot for yourself\n• Flexible decision-making\n\n**Solo Disadvantages:**\n• Can't handle bosses easily\n• Vulnerable to squads\n• No revives\n• Limited firepower\n\n**Squad Tips:**\n• Coordinate loadouts (sniper + CQB + support)\n• Assign roles (point, looter, rear guard)\n• Share loot fairly\n• Callouts are essential"
+        },
+        {
+          "heading": "Audio Cues",
+          "content": "• **Mechanical Whirring**: ARC nearby\n• **Heavy Footsteps**: Bastion or Queen\n• **Aerial Buzz**: Wasp overhead\n• **Gunfire**: Raiders in combat\n• **Warning Sirens**: Extraction timer or event\n• **Scuttling**: Tick on walls/ceiling"
+        },
+        {
+          "heading": "Extraction Camping Counter",
+          "content": "• Scout extraction before approaching\n• Use smoke grenades for cover\n• Have teammates cover during extract\n• Alternative routes to extraction\n• Bait campers with decoys\n• Extract early if possible"
+        },
+        {
+          "heading": "Meta Strategies (2025)",
+          "content": "• Anvil remains king of versatility\n• Energy weapons rising in PvE meta\n• Shield meta favors quick-recharge over heavy\n• EMP grenades essential for Queen farming\n• Budget builds still competitive\n• Movement skills more valuable than raw damage"
+        }
+      ]
+    }
+  },
+  "quickTips": [
+    "Always carry healing items and shield rechargers",
+    "Safe pocket your valuables immediately",
+    "Audio cues can save your life - use headphones",
+    "Extract with something rather than risk everything",
+    "Learn one map thoroughly before trying others",
+    "Budget builds can compete with expensive loadouts",
+    "Stamina management is crucial for survival",
+    "Door blockers control engagement range",
+    "EMP grenades make boss fights manageable",
+    "Watch your extraction timer - don't get trapped"
+  ]
+}

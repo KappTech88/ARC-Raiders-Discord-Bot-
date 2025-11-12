@@ -1,0 +1,280 @@
+{
+  "builds": [
+    {
+      "id": "budget-starter",
+      "name": "Budget Starter",
+      "difficulty": "Beginner",
+      "cost": "Very Low",
+      "primaryWeapon": "Ferro",
+      "secondaryWeapon": "Stitcher",
+      "armor": "Basic Armor",
+      "shield": "Standard Shield",
+      "gadgets": [
+        "Bandages (5+)",
+        "Shield Recharger",
+        "Frag Grenade (2)",
+        "Ammo appropriate for weapons"
+      ],
+      "augments": [
+        "Extra Quick-Use Slot",
+        "Basic Carry Capacity",
+        "Marathon Runner (Mobility)"
+      ],
+      "playstyle": "Balanced",
+      "description": "Perfect for new Raiders. Combines the powerful Ferro rifle for long-range with Stitcher SMG for close encounters. Very affordable and effective.",
+      "strengths": [
+        "Extremely cost-effective",
+        "Covers all ranges",
+        "Easy to use",
+        "Low risk if lost"
+      ],
+      "weaknesses": [
+        "Limited ARC penetration",
+        "Basic armor means less survivability",
+        "Struggles against heavily armored enemies"
+      ],
+      "tactics": [
+        "Engage at mid-long range with Ferro",
+        "Switch to Stitcher for close quarters",
+        "Avoid direct confrontation with heavy ARCs",
+        "Focus on looting and surviving",
+        "Learn map layouts and escape routes"
+      ],
+      "estimatedCost": 5000
+    },
+    {
+      "id": "rattler-kettle",
+      "name": "Rattler & Kettle",
+      "difficulty": "Beginner",
+      "cost": "Very Low",
+      "primaryWeapon": "Rattler",
+      "secondaryWeapon": "Kettle",
+      "armor": "Basic Armor",
+      "shield": "Standard Shield",
+      "gadgets": [
+        "Bandages (5+)",
+        "Shield Recharger",
+        "Lure Grenade",
+        "Ammo stacks"
+      ],
+      "augments": [
+        "Extra Quick-Use Slot",
+        "Effortless Roll (Mobility)"
+      ],
+      "playstyle": "Versatile",
+      "description": "Alternative budget build with fully automatic Rattler for consistent damage and Kettle for backup.",
+      "strengths": [
+        "Fully automatic primary",
+        "Very affordable",
+        "Good for learning game mechanics",
+        "Low-risk exploration"
+      ],
+      "weaknesses": [
+        "Lower damage than Ferro build",
+        "Medium ARC penetration",
+        "Less effective against armored targets"
+      ],
+      "tactics": [
+        "Use Rattler for consistent mid-range damage",
+        "Lure grenades to distract ARCs",
+        "Stay mobile with roll ability",
+        "Focus on map knowledge and loot routes"
+      ],
+      "estimatedCost": 4500
+    },
+    {
+      "id": "arc-destroyer",
+      "name": "ARC Destroyer",
+      "difficulty": "Intermediate",
+      "cost": "Medium-High",
+      "primaryWeapon": "Hullcracker",
+      "secondaryWeapon": "Anvil",
+      "armor": "Reinforced Armor",
+      "shield": "Heavy Shield",
+      "gadgets": [
+        "Vita Spray",
+        "Shield Recharger (2)",
+        "EMP Grenade (2)",
+        "Heavy Ammo",
+        "Bandages (5)"
+      ],
+      "augments": [
+        "Heavy Carry Capacity",
+        "Shield Boost",
+        "ARC Damage Bonus"
+      ],
+      "playstyle": "PvE Specialist",
+      "description": "Specialized for farming ARC machines and boss fights. Hullcracker destroys heavily armored targets while Anvil handles versatility.",
+      "strengths": [
+        "Devastating against ARCs",
+        "Perfect for boss farming",
+        "High survivability",
+        "Excellent loot potential"
+      ],
+      "weaknesses": [
+        "Expensive loadout to lose",
+        "Weak in PvP scenarios",
+        "Requires good positioning",
+        "Heavy ammo can be scarce"
+      ],
+      "tactics": [
+        "Focus on high-value ARC targets",
+        "Use EMP grenades to stagger heavy units",
+        "Maintain distance and use cover",
+        "Switch to Anvil for Raiders if needed",
+        "Farm Bastions and Queens for blueprints"
+      ],
+      "estimatedCost": 25000
+    },
+    {
+      "id": "pvp-assassin",
+      "name": "PvP Assassin",
+      "difficulty": "Advanced",
+      "cost": "High",
+      "primaryWeapon": "Osprey",
+      "secondaryWeapon": "Anvil",
+      "armor": "Light Armor (mobility focused)",
+      "shield": "Quick-Recharge Shield",
+      "gadgets": [
+        "Vita Shots",
+        "Shield Recharger (2)",
+        "Flashbang",
+        "Smoke Grenade",
+        "Sniper Ammo"
+      ],
+      "augments": [
+        "Silent Movement",
+        "Extra Quick-Use Slots",
+        "Marathon Runner",
+        "Faster ADS"
+      ],
+      "playstyle": "Stealth Sniper",
+      "description": "Long-range PvP build focused on picking off enemy Raiders from distance. High skill ceiling.",
+      "strengths": [
+        "One-shot potential with Osprey",
+        "Excellent positioning advantage",
+        "Strong secondary weapon",
+        "High mobility"
+      ],
+      "weaknesses": [
+        "Vulnerable in close range",
+        "Requires excellent aim",
+        "Light armor means low survivability",
+        "Expensive to maintain"
+      ],
+      "tactics": [
+        "Find elevated positions early",
+        "Use Osprey for opening shots",
+        "Switch to Anvil if enemies push",
+        "Use smoke for repositioning",
+        "Avoid prolonged engagements"
+      ],
+      "estimatedCost": 30000
+    },
+    {
+      "id": "all-rounder",
+      "name": "All-Rounder Elite",
+      "difficulty": "Intermediate",
+      "cost": "Medium",
+      "primaryWeapon": "Anvil (Maxed)",
+      "secondaryWeapon": "Tempest",
+      "armor": "Balanced Armor",
+      "shield": "Adaptive Shield",
+      "gadgets": [
+        "Vita Spray",
+        "Shield Recharger (2)",
+        "Frag Grenade (2)",
+        "Door Blocker",
+        "Mixed Ammo"
+      ],
+      "augments": [
+        "Balanced Carry Capacity",
+        "Quick-Use Expansion",
+        "Shield Efficiency",
+        "Effortless Roll"
+      ],
+      "playstyle": "Versatile",
+      "description": "The most versatile build. Handles any threat at range with Anvil and dominates close quarters with Tempest.",
+      "strengths": [
+        "Effective at all ranges",
+        "Strong in both PvP and PvE",
+        "Balanced survivability",
+        "Adaptable to any situation"
+      ],
+      "weaknesses": [
+        "Master of none specialization",
+        "Moderate cost if lost",
+        "Requires switching weapons frequently"
+      ],
+      "tactics": [
+        "Use Anvil for mid-long range",
+        "Switch to Tempest for indoor/close combat",
+        "Block doors to control engagement range",
+        "Stay mobile and adapt to situations",
+        "Works well solo or in teams"
+      ],
+      "estimatedCost": 18000
+    },
+    {
+      "id": "energy-specialist",
+      "name": "Energy Specialist",
+      "difficulty": "Advanced",
+      "cost": "High",
+      "primaryWeapon": "Jupiter",
+      "secondaryWeapon": "Equalizer",
+      "armor": "Tech Armor",
+      "shield": "Energy Shield",
+      "gadgets": [
+        "Energy Cells (Multiple)",
+        "Shield Recharger (2)",
+        "Vita Spray",
+        "EMP Grenade (2)",
+        "Tech Scanner"
+      ],
+      "augments": [
+        "Energy Efficiency",
+        "Tech Specialist",
+        "Enhanced Scanner",
+        "Energy Weapon Proficiency"
+      ],
+      "playstyle": "High-Tech",
+      "description": "Specialized build using energy weapons for maximum ARC damage. High-risk, high-reward playstyle.",
+      "strengths": [
+        "Devastating ARC penetration",
+        "Unique weapon advantages",
+        "Excellent for tech-based tactics",
+        "Strong shield synergy"
+      ],
+      "weaknesses": [
+        "Energy ammo scarcity",
+        "Very expensive to maintain",
+        "Less effective in PvP",
+        "Requires ammo management"
+      ],
+      "tactics": [
+        "Prioritize energy ammo looting",
+        "Focus on ARC farming",
+        "Use tech scanner to find valuable targets",
+        "Conserve ammo with precision shots",
+        "Team synergy with traditional weapons"
+      ],
+      "estimatedCost": 35000
+    }
+  ],
+  "buildCategories": {
+    "beginner": ["budget-starter", "rattler-kettle"],
+    "pve_focused": ["arc-destroyer", "energy-specialist"],
+    "pvp_focused": ["pvp-assassin"],
+    "versatile": ["all-rounder", "budget-starter"]
+  },
+  "buildTips": [
+    "Always carry at least 5 bandages in every loadout",
+    "Bring weapons that complement each other (long + close range)",
+    "Match your build to your objective (PvP, PvE, looting)",
+    "Don't bring expensive gear until you're comfortable with the map",
+    "Augments can make or break a build - choose wisely",
+    "Shield rechargers are essential for sustained fights",
+    "Carry appropriate ammo for both weapons",
+    "Consider escape options in every build"
+  ]
+}

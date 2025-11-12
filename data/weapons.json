@@ -1,0 +1,281 @@
+{
+  "weapons": [
+    {
+      "id": "anvil",
+      "name": "Anvil",
+      "type": "Hand Cannon",
+      "tier": "S",
+      "rarity": "Uncommon",
+      "damage": 40,
+      "magazine": 6,
+      "arcPenetration": "Strong",
+      "pvpEffectiveness": "Excellent",
+      "pveEffectiveness": "Excellent",
+      "range": "Mid-Range",
+      "description": "The best all-around weapon in ARC Raiders. A powerful hand cannon that excels in both PvP and PvE combat.",
+      "strengths": [
+        "High damage per shot",
+        "Strong ARC armor penetration",
+        "Versatile in all combat situations",
+        "Excellent for close to mid-range encounters"
+      ],
+      "weaknesses": [
+        "Small magazine size (6 rounds)",
+        "Requires good accuracy",
+        "Higher cost than budget options"
+      ],
+      "bestFor": "All-around combat, both PvP and PvE"
+    },
+    {
+      "id": "ferro",
+      "name": "Ferro",
+      "type": "Battle Rifle",
+      "tier": "S",
+      "rarity": "Common",
+      "damage": 42,
+      "magazine": 10,
+      "arcPenetration": "Very Strong",
+      "pvpEffectiveness": "Excellent",
+      "pveEffectiveness": "Excellent",
+      "range": "Long-Range",
+      "description": "Single-shot battle rifle with exceptional power and incredibly low price. One of the best guns in the entire game.",
+      "strengths": [
+        "Very high damage",
+        "Excellent accuracy",
+        "Strong long-range performance",
+        "Very affordable (common rarity)"
+      ],
+      "weaknesses": [
+        "Single-shot (slower fire rate)",
+        "Requires precision",
+        "Less forgiving for missed shots"
+      ],
+      "bestFor": "Long-range engagements, budget builds"
+    },
+    {
+      "id": "rattler",
+      "name": "Rattler",
+      "type": "Assault Rifle",
+      "tier": "A",
+      "rarity": "Common",
+      "damage": 18,
+      "magazine": 10,
+      "arcPenetration": "Medium",
+      "pvpEffectiveness": "Good",
+      "pveEffectiveness": "Good",
+      "range": "Mid-Range",
+      "description": "Reliable all-round automatic rifle that combines solid damage with precision. Perfect balance of firepower and accessibility.",
+      "strengths": [
+        "Fully automatic fire",
+        "Balanced damage and accuracy",
+        "Good for beginners",
+        "Affordable and accessible"
+      ],
+      "weaknesses": [
+        "Medium damage per shot",
+        "Average ARC penetration",
+        "Outclassed by higher-tier weapons"
+      ],
+      "bestFor": "Starter loadouts, all-purpose combat"
+    },
+    {
+      "id": "hullcracker",
+      "name": "Hullcracker",
+      "type": "Heavy Weapon",
+      "tier": "S",
+      "rarity": "Rare",
+      "damage": 65,
+      "magazine": 4,
+      "arcPenetration": "Very Strong",
+      "pvpEffectiveness": "Poor",
+      "pveEffectiveness": "Excellent",
+      "range": "Mid-Range",
+      "description": "S-tier weapon specifically designed for killing ARC machines with devastating armor penetration.",
+      "strengths": [
+        "Extremely high damage",
+        "Best ARC armor penetration",
+        "Destroys ARC machines quickly",
+        "Perfect for boss fights"
+      ],
+      "weaknesses": [
+        "Ineffective in PvP",
+        "Very small magazine",
+        "Slow fire rate",
+        "High cost"
+      ],
+      "bestFor": "ARC farming, boss killing"
+    },
+    {
+      "id": "osprey",
+      "name": "Osprey",
+      "type": "Sniper Rifle",
+      "tier": "A",
+      "rarity": "Uncommon",
+      "damage": 75,
+      "magazine": 5,
+      "arcPenetration": "Strong",
+      "pvpEffectiveness": "Excellent",
+      "pveEffectiveness": "Good",
+      "range": "Long-Range",
+      "description": "Bolt-action sniper rifle with the highest damage-per-shot. Designed to end PvP fights with one or two well-placed shots.",
+      "strengths": [
+        "Highest damage per shot",
+        "One-shot potential in PvP",
+        "Excellent range",
+        "High accuracy"
+      ],
+      "weaknesses": [
+        "Slow bolt-action",
+        "Requires headshot accuracy",
+        "Limited mobility while scoped",
+        "Struggles in close range"
+      ],
+      "bestFor": "Long-range PvP, ambush tactics"
+    },
+    {
+      "id": "stitcher",
+      "name": "Stitcher",
+      "type": "SMG",
+      "tier": "B",
+      "rarity": "Common",
+      "damage": 12,
+      "magazine": 25,
+      "arcPenetration": "Weak",
+      "pvpEffectiveness": "Good",
+      "pveEffectiveness": "Fair",
+      "range": "Close-Range",
+      "description": "Perfect SMG for newcomers with low recoil and easy control for close-range encounters.",
+      "strengths": [
+        "High fire rate",
+        "Large magazine",
+        "Low recoil",
+        "Easy to control",
+        "Very affordable"
+      ],
+      "weaknesses": [
+        "Low damage per shot",
+        "Weak ARC penetration",
+        "Poor at range",
+        "Burns through ammo quickly"
+      ],
+      "bestFor": "Close-range PvP, beginner builds"
+    },
+    {
+      "id": "jupiter",
+      "name": "Jupiter",
+      "type": "Energy Rifle",
+      "tier": "A",
+      "rarity": "Rare",
+      "damage": 55,
+      "magazine": 8,
+      "arcPenetration": "Very Strong",
+      "pvpEffectiveness": "Good",
+      "pveEffectiveness": "Excellent",
+      "range": "Long-Range",
+      "description": "Energy rifle with bolt-action mechanism. Higher damage and accuracy than Osprey, perfect for breaking ARC armor.",
+      "strengths": [
+        "Very high damage",
+        "Excellent ARC penetration",
+        "High accuracy",
+        "Energy weapon benefits"
+      ],
+      "weaknesses": [
+        "Uses rare energy ammo",
+        "Slower against Raiders",
+        "Limited ammo availability",
+        "Higher cost"
+      ],
+      "bestFor": "ARC combat, long-range PvE"
+    },
+    {
+      "id": "equalizer",
+      "name": "Equalizer",
+      "type": "Energy Beam",
+      "tier": "B",
+      "rarity": "Rare",
+      "damage": "Variable",
+      "magazine": "Energy Cell",
+      "arcPenetration": "Strong",
+      "pvpEffectiveness": "Fair",
+      "pveEffectiveness": "Good",
+      "range": "Long-Range",
+      "description": "Shoots continuous energy beam with incredible range. Best used against ARCs to decimate their armor.",
+      "strengths": [
+        "Continuous beam damage",
+        "Incredible range",
+        "Good against ARC armor",
+        "No traditional reload"
+      ],
+      "weaknesses": [
+        "Burns through energy ammo fast",
+        "Inconsistent beam damage",
+        "Doesn't hold up against traditional guns in PvP",
+        "Expensive to maintain"
+      ],
+      "bestFor": "ARC suppression, long-range harassment"
+    },
+    {
+      "id": "tempest",
+      "name": "Tempest",
+      "tier": "A",
+      "type": "Shotgun",
+      "rarity": "Uncommon",
+      "damage": 80,
+      "magazine": 6,
+      "arcPenetration": "Medium",
+      "pvpEffectiveness": "Excellent",
+      "pveEffectiveness": "Good",
+      "range": "Close-Range",
+      "description": "Powerful close-range shotgun that excels in tight spaces and ambush tactics.",
+      "strengths": [
+        "Devastating close-range damage",
+        "Excellent for indoor combat",
+        "High burst damage",
+        "Great for ambushes"
+      ],
+      "weaknesses": [
+        "Very limited range",
+        "Slow reload",
+        "Ineffective at distance",
+        "Requires positioning"
+      ],
+      "bestFor": "Close-quarters combat, ambush tactics"
+    },
+    {
+      "id": "vulcano",
+      "name": "Vulcano",
+      "type": "Shotgun",
+      "tier": "A",
+      "rarity": "Common",
+      "damage": 75,
+      "magazine": 8,
+      "arcPenetration": "Medium",
+      "pvpEffectiveness": "Good",
+      "pveEffectiveness": "Good",
+      "range": "Close-Range",
+      "description": "Simple close-range shotgun that delivers reliable damage in tight quarters.",
+      "strengths": [
+        "High close-range damage",
+        "Reliable performance",
+        "Affordable",
+        "Good magazine size for shotgun"
+      ],
+      "weaknesses": [
+        "Limited range",
+        "Weak at mid-long range",
+        "Medium ARC penetration"
+      ],
+      "bestFor": "Close-quarters combat, budget builds"
+    }
+  ],
+  "weaponCategories": {
+    "assault_rifles": ["rattler"],
+    "hand_cannons": ["anvil"],
+    "battle_rifles": ["ferro"],
+    "sniper_rifles": ["osprey", "jupiter"],
+    "smgs": ["stitcher"],
+    "shotguns": ["tempest", "vulcano"],
+    "heavy_weapons": ["hullcracker"],
+    "energy_weapons": ["jupiter", "equalizer"]
+  }
+}
