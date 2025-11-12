@@ -1,11 +1,12 @@
 {
   "name": "arc-raiders-discord-bot",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Comprehensive ARC Raiders Discord bot for game guides, item lookup, and character builds",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "node --watch index.js"
+    "dev": "node --watch index.js",
+    "deploy": "node deploy-commands.js"
   },
   "keywords": [
     "discord",
