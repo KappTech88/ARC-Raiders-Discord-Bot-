@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARC Raiders Item Database</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1>🎮 ARC Raiders Item Database</h1>
+                <p class="subtitle">Complete Item Guide with Crafting & Locations</p>
+            </div>
+        </header>
+
+        <!-- Search and Filters -->
+        <div class="controls">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="🔍 Search items..." />
+            </div>
+
+            <div class="filters">
+                <select id="categoryFilter" class="filter-select">
+                    <option value="all">All Categories</option>
+                    <option value="Weapon">Weapons</option>
+                    <option value="Consumable">Consumables</option>
+                    <option value="Equipment">Equipment</option>
+                    <option value="Crafting Material">Crafting Materials</option>
+                    <option value="Ammo">Ammo</option>
+                    <option value="Gadget">Gadgets</option>
+                    <option value="Blueprint">Blueprints</option>
+                </select>
+
+                <select id="tierFilter" class="filter-select">
+                    <option value="all">All Tiers</option>
+                    <option value="S">S-Tier</option>
+                    <option value="A">A-Tier</option>
+                    <option value="B">B-Tier</option>
+                    <option value="C">C-Tier</option>
+                </select>
+
+                <select id="rarityFilter" class="filter-select">
+                    <option value="all">All Rarities</option>
+                    <option value="Common">Common</option>
+                    <option value="Uncommon">Uncommon</option>
+                    <option value="Rare">Rare</option>
+                    <option value="Epic">Epic</option>
+                    <option value="Legendary">Legendary</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Stats Overview -->
+        <div class="stats-bar">
+            <div class="stat-item">
+                <span class="stat-label">Total Items:</span>
+                <span class="stat-value" id="totalItems">0</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Showing:</span>
+                <span class="stat-value" id="filteredItems">0</span>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Items Grid -->
+            <div class="items-grid" id="itemsGrid">
+                <!-- Items will be dynamically loaded here -->
+            </div>
+
+            <!-- Item Detail Panel -->
+            <div class="item-detail" id="itemDetail" style="display: none;">
+                <div class="detail-header">
+                    <button class="close-btn" id="closeDetail">✕</button>
+                    <h2 id="detailName"></h2>
+                    <div class="detail-badges">
+                        <span class="badge tier-badge" id="detailTier"></span>
+                        <span class="badge rarity-badge" id="detailRarity"></span>
+                    </div>
+                </div>
+
+                <div class="detail-content" id="detailContent">
+                    <!-- Detail content will be loaded dynamically -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Loading State -->
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p>Loading items...</p>
+        </div>
+
+        <!-- No Results -->
+        <div class="no-results" id="noResults" style="display: none;">
+            <p>😔 No items found matching your criteria</p>
+            <button class="btn-primary" onclick="resetFilters()">Reset Filters</button>
+        </div>
+    </div>
+
+    <!-- Discord SDK -->
+    <script src="https://discord.com/api/guilds/846058879121760286/embed.js" type="text/javascript"></script>
+    <script type="module" src="app.js"></script>
+</body>
+</html>

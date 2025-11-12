@@ -1,0 +1,454 @@
+{
+  "items": [
+    {
+      "id": "anvil-weapon",
+      "name": "Anvil",
+      "category": "Weapon",
+      "subcategory": "Hand Cannon",
+      "tier": "S",
+      "rarity": "Uncommon",
+      "description": "The best all-around weapon in ARC Raiders. A powerful hand cannon that excels in both PvP and PvE combat.",
+      "sellPrice": 1200,
+      "buyPrice": 3500,
+      "weight": 3.2,
+      "stats": {
+        "damage": 40,
+        "magazine": 6,
+        "arcPenetration": "Strong",
+        "range": "Mid-Range",
+        "fireRate": "Medium",
+        "reloadSpeed": 2.1
+      },
+      "crafting": {
+        "canCraft": true,
+        "workbench": "Gunsmith Level 2",
+        "craftTime": 300,
+        "materials": [
+          {"item": "Steel Ingot", "quantity": 12},
+          {"item": "Weapon Parts", "quantity": 8},
+          {"item": "Precision Mechanism", "quantity": 2}
+        ]
+      },
+      "salvage": {
+        "canSalvage": true,
+        "yields": [
+          {"item": "Steel Scrap", "quantity": 6, "chance": 100},
+          {"item": "Weapon Parts", "quantity": 3, "chance": 80},
+          {"item": "Precision Mechanism", "quantity": 1, "chance": 40}
+        ]
+      },
+      "locations": [
+        {"area": "Military Outpost", "type": "Loot Crate", "rarity": "Uncommon"},
+        {"area": "Harvester Sites", "type": "ARC Boss Drop", "rarity": "Rare"},
+        {"area": "Rust Belt - Central Factory", "type": "Weapon Cache", "rarity": "Uncommon"}
+      ],
+      "vendors": [
+        {"name": "Tian Wen (Gunsmith)", "stock": "Limited", "price": 3500}
+      ]
+    },
+    {
+      "id": "bandage",
+      "name": "Bandage",
+      "category": "Consumable",
+      "subcategory": "Healing",
+      "tier": "C",
+      "rarity": "Common",
+      "description": "Basic healing item. Essential for every loadout. Carry at least 5 in every raid.",
+      "sellPrice": 15,
+      "buyPrice": 50,
+      "weight": 0.1,
+      "stackSize": 10,
+      "stats": {
+        "healAmount": 25,
+        "healTime": 5,
+        "healType": "Over Time"
+      },
+      "crafting": {
+        "canCraft": true,
+        "workbench": "Medical Station Level 1",
+        "craftTime": 10,
+        "materials": [
+          {"item": "Cloth", "quantity": 2},
+          {"item": "Medical Supplies", "quantity": 1}
+        ]
+      },
+      "salvage": {
+        "canSalvage": true,
+        "yields": [
+          {"item": "Cloth", "quantity": 1, "chance": 100}
+        ]
+      },
+      "locations": [
+        {"area": "Any Medical Facility", "type": "Cabinet", "rarity": "Very Common"},
+        {"area": "Abandoned Outposts", "type": "Supply Box", "rarity": "Common"},
+        {"area": "Any Zone", "type": "First Aid Kit", "rarity": "Common"}
+      ],
+      "vendors": [
+        {"name": "Medical Vendor", "stock": "Unlimited", "price": 50},
+        {"name": "General Trader", "stock": "High", "price": 60}
+      ]
+    },
+    {
+      "id": "emp-grenade",
+      "name": "EMP Grenade",
+      "category": "Consumable",
+      "subcategory": "Tactical",
+      "tier": "A",
+      "rarity": "Uncommon",
+      "description": "Tactical grenade that disables ARC machines and drains enemy shields.",
+      "sellPrice": 120,
+      "buyPrice": 350,
+      "weight": 0.4,
+      "stackSize": 3,
+      "stats": {
+        "radius": 8,
+        "disableDuration": 5,
+        "shieldDamage": 100,
+        "fuseTime": 2
+      },
+      "crafting": {
+        "canCraft": true,
+        "workbench": "Tech Lab Level 2",
+        "craftTime": 60,
+        "materials": [
+          {"item": "Electronics", "quantity": 4},
+          {"item": "Energy Cell", "quantity": 2},
+          {"item": "Explosive Compound", "quantity": 1}
+        ]
+      },
+      "salvage": {
+        "canSalvage": true,
+        "yields": [
+          {"item": "Electronics", "quantity": 2, "chance": 80},
+          {"item": "Energy Cell", "quantity": 1, "chance": 50},
+          {"item": "Scrap Metal", "quantity": 1, "chance": 100}
+        ]
+      },
+      "locations": [
+        {"area": "Tech Labs", "type": "Secured Locker", "rarity": "Uncommon"},
+        {"area": "Industrial Zones", "type": "Weapon Cache", "rarity": "Rare"},
+        {"area": "ARC Bastions", "type": "Enemy Drop", "rarity": "Uncommon"}
+      ],
+      "vendors": [
+        {"name": "Tech Specialist", "stock": "Limited", "price": 350},
+        {"name": "Military Supplier", "stock": "Medium", "price": 380}
+      ]
+    },
+    {
+      "id": "steel-ingot",
+      "name": "Steel Ingot",
+      "category": "Crafting Material",
+      "subcategory": "Refined Metal",
+      "tier": "B",
+      "rarity": "Common",
+      "description": "Refined steel used in weapon and equipment crafting. Essential for mid-tier gear.",
+      "sellPrice": 45,
+      "buyPrice": 100,
+      "weight": 1.5,
+      "stackSize": 50,
+      "crafting": {
+        "canCraft": true,
+        "workbench": "Smelter Level 1",
+        "craftTime": 30,
+        "materials": [
+          {"item": "Iron Ore", "quantity": 3},
+          {"item": "Coal", "quantity": 1}
+        ]
+      },
+      "salvage": {
+        "canSalvage": true,
+        "yields": [
+          {"item": "Steel Scrap", "quantity": 2, "chance": 100},
+          {"item": "Iron Ore", "quantity": 1, "chance": 30}
+        ]
+      },
+      "locations": [
+        {"area": "Industrial Zones", "type": "Storage Container", "rarity": "Common"},
+        {"area": "Mining Sites", "type": "Resource Node", "rarity": "Uncommon"},
+        {"area": "Scrapyard", "type": "Salvage Pile", "rarity": "Common"}
+      ],
+      "vendors": [
+        {"name": "Materials Trader", "stock": "High", "price": 100}
+      ],
+      "usedIn": [
+        "Anvil Weapon",
+        "Ferro Weapon",
+        "Reinforced Armor",
+        "Heavy Shield",
+        "Door Blocker"
+      ]
+    },
+    {
+      "id": "energy-cell",
+      "name": "Energy Cell",
+      "category": "Ammo",
+      "subcategory": "Energy Weapons",
+      "tier": "A",
+      "rarity": "Rare",
+      "description": "High-tech power source for energy weapons. Required for Jupiter and Equalizer.",
+      "sellPrice": 80,
+      "buyPrice": 200,
+      "weight": 0.3,
+      "stackSize": 100,
+      "crafting": {
+        "canCraft": true,
+        "workbench": "Tech Lab Level 3",
+        "craftTime": 45,
+        "materials": [
+          {"item": "Rare Earth Elements", "quantity": 2},
+          {"item": "Electronics", "quantity": 3},
+          {"item": "Coolant", "quantity": 1}
+        ]
+      },
+      "salvage": {
+        "canSalvage": true,
+        "yields": [
+          {"item": "Electronics", "quantity": 1, "chance": 80},
+          {"item": "Rare Earth Elements", "quantity": 1, "chance": 20}
+        ]
+      },
+      "locations": [
+        {"area": "Tech Labs", "type": "Power Station", "rarity": "Uncommon"},
+        {"area": "Harvester Sites", "type": "ARC Drop", "rarity": "Rare"},
+        {"area": "Research Facilities", "type": "Secured Storage", "rarity": "Uncommon"}
+      ],
+      "vendors": [
+        {"name": "Energy Specialist", "stock": "Limited", "price": 200},
+        {"name": "Tech Vendor", "stock": "Medium", "price": 220}
+      ],
+      "usedIn": [
+        "Jupiter Weapon Ammo",
+        "Equalizer Weapon Ammo",
+        "EMP Grenade",
+        "Tech Scanner",
+        "Energy Shield"
+      ]
+    },
+    {
+      "id": "weapon-parts",
+      "name": "Weapon Parts",
+      "category": "Crafting Material",
+      "subcategory": "Components",
+      "tier": "B",
+      "rarity": "Common",
+      "description": "Generic weapon components used in firearm crafting and repair.",
+      "sellPrice": 35,
+      "buyPrice": 80,
+      "weight": 0.8,
+      "stackSize": 50,
+      "crafting": {
+        "canCraft": true,
+        "workbench": "Gunsmith Level 1",
+        "craftTime": 20,
+        "materials": [
+          {"item": "Steel Scrap", "quantity": 4},
+          {"item": "Springs", "quantity": 2},
+          {"item": "Oil", "quantity": 1}
+        ]
+      },
+      "salvage": {
+        "canSalvage": true,
+        "yields": [
+          {"item": "Steel Scrap", "quantity": 2, "chance": 100},
+          {"item": "Springs", "quantity": 1, "chance": 60}
+        ]
+      },
+      "locations": [
+        {"area": "Military Outpost", "type": "Armory", "rarity": "Common"},
+        {"area": "Abandoned Vehicles", "type": "Trunk Loot", "rarity": "Common"},
+        {"area": "Any Raider Kill", "type": "Body Loot", "rarity": "Uncommon"}
+      ],
+      "vendors": [
+        {"name": "Gunsmith", "stock": "High", "price": 80},
+        {"name": "Scrap Dealer", "stock": "Medium", "price": 90}
+      ],
+      "usedIn": [
+        "All Weapon Crafting",
+        "Weapon Repairs",
+        "Weapon Modifications",
+        "Turret Construction"
+      ]
+    },
+    {
+      "id": "shield-recharger",
+      "name": "Shield Recharger",
+      "category": "Consumable",
+      "subcategory": "Shield",
+      "tier": "B",
+      "rarity": "Common",
+      "description": "Essential for sustained combat. Recharges your shield completely.",
+      "sellPrice": 50,
+      "buyPrice": 150,
+      "weight": 0.3,
+      "stackSize": 5,
+      "stats": {
+        "rechargeAmount": "100%",
+        "rechargeTime": 8,
+        "rechargeType": "Over Time"
+      },
+      "crafting": {
+        "canCraft": true,
+        "workbench": "Tech Lab Level 1",
+        "craftTime": 25,
+        "materials": [
+          {"item": "Electronics", "quantity": 3},
+          {"item": "Battery", "quantity": 1},
+          {"item": "Coolant", "quantity": 1}
+        ]
+      },
+      "salvage": {
+        "canSalvage": true,
+        "yields": [
+          {"item": "Electronics", "quantity": 1, "chance": 80},
+          {"item": "Battery", "quantity": 1, "chance": 40}
+        ]
+      },
+      "locations": [
+        {"area": "Tech Facilities", "type": "Supply Crate", "rarity": "Common"},
+        {"area": "Medical Stations", "type": "Wall Storage", "rarity": "Common"},
+        {"area": "Any Zone", "type": "Random Loot", "rarity": "Common"}
+      ],
+      "vendors": [
+        {"name": "Tech Vendor", "stock": "High", "price": 150},
+        {"name": "Medical Supplier", "stock": "High", "price": 160}
+      ]
+    },
+    {
+      "id": "blueprint-anvil",
+      "name": "Anvil Blueprint",
+      "category": "Blueprint",
+      "subcategory": "Weapon",
+      "tier": "S",
+      "rarity": "Rare",
+      "description": "Unlocks the ability to craft the Anvil hand cannon at the Gunsmith.",
+      "sellPrice": 2500,
+      "buyPrice": 8000,
+      "weight": 0.1,
+      "stackSize": 1,
+      "crafting": {
+        "canCraft": false
+      },
+      "salvage": {
+        "canSalvage": false
+      },
+      "locations": [
+        {"area": "Harvester Sites", "type": "Queen Boss Drop", "rarity": "Epic"},
+        {"area": "High-Tier Zones", "type": "Legendary Crate", "rarity": "Rare"},
+        {"area": "Rust Belt - Factory", "type": "Hidden Safe", "rarity": "Very Rare"}
+      ],
+      "vendors": [
+        {"name": "Blueprint Merchant", "stock": "Very Limited", "price": 8000}
+      ],
+      "unlocks": "Anvil Weapon Crafting"
+    },
+    {
+      "id": "tech-scanner",
+      "name": "Tech Scanner",
+      "category": "Gadget",
+      "subcategory": "Utility",
+      "tier": "A",
+      "rarity": "Rare",
+      "description": "Advanced scanning device that reveals enemies and loot through obstacles.",
+      "sellPrice": 300,
+      "buyPrice": 800,
+      "weight": 1.2,
+      "stackSize": 1,
+      "stats": {
+        "scanRadius": 50,
+        "scanDuration": 30,
+        "cooldown": 60,
+        "batteryLife": 5
+      },
+      "crafting": {
+        "canCraft": true,
+        "workbench": "Tech Lab Level 3",
+        "craftTime": 120,
+        "materials": [
+          {"item": "Electronics", "quantity": 8},
+          {"item": "Energy Cell", "quantity": 3},
+          {"item": "Rare Earth Elements", "quantity": 2},
+          {"item": "Optical Components", "quantity": 1}
+        ]
+      },
+      "salvage": {
+        "canSalvage": true,
+        "yields": [
+          {"item": "Electronics", "quantity": 4, "chance": 90},
+          {"item": "Energy Cell", "quantity": 1, "chance": 60},
+          {"item": "Rare Earth Elements", "quantity": 1, "chance": 30}
+        ]
+      },
+      "locations": [
+        {"area": "Research Facilities", "type": "Lab Storage", "rarity": "Rare"},
+        {"area": "Tech Labs", "type": "Secured Vault", "rarity": "Rare"},
+        {"area": "High-Tier Zones", "type": "Elite Loot", "rarity": "Epic"}
+      ],
+      "vendors": [
+        {"name": "Tech Specialist", "stock": "Very Limited", "price": 800}
+      ]
+    },
+    {
+      "id": "reinforced-armor",
+      "name": "Reinforced Armor",
+      "category": "Equipment",
+      "subcategory": "Armor",
+      "tier": "A",
+      "rarity": "Uncommon",
+      "description": "Mid-tier body armor providing balanced protection without sacrificing mobility.",
+      "sellPrice": 800,
+      "buyPrice": 2200,
+      "weight": 8.5,
+      "stackSize": 1,
+      "stats": {
+        "armorValue": 75,
+        "durability": 500,
+        "movementPenalty": -5,
+        "slots": 4
+      },
+      "crafting": {
+        "canCraft": true,
+        "workbench": "Armor Station Level 2",
+        "craftTime": 180,
+        "materials": [
+          {"item": "Steel Ingot", "quantity": 20},
+          {"item": "Kevlar Fabric", "quantity": 12},
+          {"item": "Armor Plates", "quantity": 4},
+          {"item": "Tactical Webbing", "quantity": 2}
+        ]
+      },
+      "salvage": {
+        "canSalvage": true,
+        "yields": [
+          {"item": "Steel Scrap", "quantity": 10, "chance": 100},
+          {"item": "Kevlar Fabric", "quantity": 5, "chance": 70},
+          {"item": "Armor Plates", "quantity": 2, "chance": 50}
+        ]
+      },
+      "locations": [
+        {"area": "Military Outpost", "type": "Armory Locker", "rarity": "Uncommon"},
+        {"area": "Supply Drops", "type": "Special Crate", "rarity": "Rare"},
+        {"area": "ARC Bastion", "type": "Boss Drop", "rarity": "Uncommon"}
+      ],
+      "vendors": [
+        {"name": "Armor Merchant", "stock": "Medium", "price": 2200},
+        {"name": "Military Supplier", "stock": "Limited", "price": 2400}
+      ]
+    }
+  ],
+  "categories": {
+    "weapons": ["Hand Cannon", "Assault Rifle", "Sniper Rifle", "SMG", "Shotgun", "Energy Weapon", "Heavy Weapon"],
+    "consumables": ["Healing", "Shield", "Tactical", "Explosive"],
+    "equipment": ["Armor", "Shield Device", "Backpack", "Helmet"],
+    "crafting_materials": ["Refined Metal", "Components", "Electronics", "Rare Materials"],
+    "ammo": ["Standard", "Energy Weapons", "Heavy Caliber"],
+    "gadgets": ["Utility", "Trap", "Mobility"],
+    "blueprints": ["Weapon", "Armor", "Gadget"]
+  },
+  "craftingStations": [
+    {"id": "gunsmith", "name": "Gunsmith", "levels": 3, "unlocks": "Weapon crafting and modifications"},
+    {"id": "armor-station", "name": "Armor Station", "levels": 3, "unlocks": "Armor and protective gear"},
+    {"id": "tech-lab", "name": "Tech Lab", "levels": 3, "unlocks": "Electronics, gadgets, and energy items"},
+    {"id": "medical-station", "name": "Medical Station", "levels": 2, "unlocks": "Healing items and medical supplies"},
+    {"id": "smelter", "name": "Smelter", "levels": 2, "unlocks": "Metal refining and basic materials"}
+  ]
+}

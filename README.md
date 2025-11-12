@@ -2,6 +2,8 @@
 
 A comprehensive and **interactive** Discord bot for ARC Raiders featuring slash commands, autocomplete, game guides, item lookup, character builds, weapon stats, enemy tactics, and more!
 
+**🎮 NEW: Discord Activity** - An embedded web app that runs inside Discord with a full interactive item database! See `activity/README.md` for setup.
+
 ## ✨ NEW in Version 2.0
 
 - **🎯 Slash Commands**: Modern `/arc` commands instead of `!arc` prefix
@@ -57,6 +59,21 @@ A comprehensive and **interactive** Discord bot for ARC Raiders featuring slash 
 ### 💡 Quick Tips
 - Random helpful tips
 - **Click button** to get another tip instantly
+
+## 🎮 Discord Activity (NEW!)
+
+In addition to the slash command bot, we now have a **Discord Activity** - an embedded web app that runs directly inside Discord!
+
+### Features:
+- 🖥️ **Runs Inside Discord**: Opens in a panel within voice channels or DMs
+- 📊 **Full Item Database**: Browse ALL items with complete information
+- 🔨 **Crafting Recipes**: See what materials you need to craft items
+- ♻️ **Salvage Info**: Learn what you get from breaking down items
+- 📍 **Location Guide**: Find out where items spawn
+- 💰 **Economy Data**: Buy/sell prices and vendor information
+- 🎨 **Beautiful UI**: Modern, responsive design with real-time filtering
+
+**[See Discord Activity Setup Guide →](activity/README.md)**
 
 ## Setup Instructions
 
